@@ -1,0 +1,19 @@
+{
+  "name": "dom",
+  "version": "1.0.0",
+  "description": "<p>This is the repo for DOM manipulation</p>",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AniramOcean/DOM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AniramOcean/DOM/issues"
+  },
+  "homepage": "https://github.com/AniramOcean/DOM#readme"
+}
