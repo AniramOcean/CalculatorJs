@@ -10,10 +10,42 @@
 </head>
 <body>
 
+<div class="calculator">
+    <input type="text" id="display" readonly>
+
+    <div class="digits">
+        <button onclick="digit(1)">1</button>
+        <button onclick="digit(2)">2</button>
+        <button onclick="digit(3)">3</button>
+
+        <button onclick="operand('+')">+</button>
+
+        <button onclick="digit(4)">4</button>
+        <button onclick="digit(5)">5</button>
+        <button onclick="digit(6)">6</button>
+
+        <button onclick="operand('-')">-</button>
+
+        <button onclick="digit(7)">7</button>
+        <button onclick="digit(8)">8</button>
+        <button onclick="digit(9)">9</button>
+
+        <button onclick="operand('*')">x</button>
+
+        <button onclick="digit(0)">0</button>
+
+        <button onclick="operand('/')">/</button>
+        <button onclick="getResult('')" id="result" disabled>=</button>
+
+    </div>
+
+
+</div>
+
 <div class="test">
     <h1 id="title">Hello h1</h1>
 
-    <input id="display" type="text">
+    <input id="disp" type="text">
 
     <div>
         <button onclick="sayHello('Boom')" onmouseenter="mouseEnter()">CLICK</button>
@@ -27,6 +59,7 @@
     </div>
 </div>
 
+<script src="script.js"></script>
 <script src="test.js"></script>
 <script src="fibonacci.js"></script>
 </body>

@@ -23,8 +23,8 @@ function fibLoop(num = 0) {
 }
 
 
-console.log(fibLoop(0));
-console.log(fibLoop(1));
+// console.log(fibLoop(0));
+// console.log(fibLoop(1));
 // console.log(fibLoop(2));
 // console.log(fibLoop(6));
 // console.log(fibLoop(17));
