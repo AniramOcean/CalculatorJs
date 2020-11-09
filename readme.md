@@ -1,5 +1,3 @@
 #README
 
-<p>This is the repo for DOM manipulation</p>
-
-^_^
+This is pure js calculator repo
