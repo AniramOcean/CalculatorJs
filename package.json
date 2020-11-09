@@ -2,7 +2,7 @@
   "name": "dom",
   "version": "1.0.0",
   "description": "<p>This is the repo for DOM manipulation</p>",
-  "main": "script.js",
+  "main": "test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
