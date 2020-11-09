@@ -18,10 +18,10 @@ function write(n) {
     document.querySelector('#display').value = n;
 }
 
-function operand(operator) {
-    console.log(`operand ${operator}`)
-    write(operator);
-    operatorValue = operator;
+function operand(operandV) {
+    console.log(`operand ${operandV}`);
+    write(operandV);
+    operatorValue = operandV;
 }
 
 function getResult() {
@@ -37,11 +37,11 @@ function getResult() {
             result = +firstValue * +secondValue;
         break;
         case "/":
-            result = +firstValue / +secondValue;
+            result = (+firstValue / +secondValue).round(4);
         break;
-        default:write(result);
+        default: setInitialValue(result);
     }
-    write(result);
+    // write(result);
     setInitialValue(result);
 }
 
@@ -49,4 +49,5 @@ function setInitialValue(firstValueDefault = '') {
     firstValue = firstValueDefault;
     secondValue = '';
     operatorValue = '';
+    write(firstValueDefault);
 }
