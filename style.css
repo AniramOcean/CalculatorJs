@@ -1,18 +1,19 @@
 .calculator {
-    width: 400px    ;
+    width: 400px;
     margin: 0 auto;
 }
 
 #display {
     margin: 5px;
     padding: 0 20px;
-    width: 400px;
+    width: 285px;
     height: 60px;
     box-sizing: border-box;
 }
 
 #display,
-.digits button {
+.digits button,
+.display__container button {
     font-size: 2rem;
     background: #eadbd1;
     border-radius: 30px;
@@ -21,7 +22,8 @@
 }
 
 #display:active,
-.digits button:active {
+.digits button:active,
+.display__container button:active {
     background: rgb(255, 240, 215);
 }
 
@@ -30,21 +32,10 @@ button:disabled {
     background: #b4aba3;
 }
 
-.digits {
-    width: 400px;
-}
 
-/*#result {*/
-/*    width: 185px;*/
-/*}*/
-
-.digits button {
+.digits button,
+.display__container button{
     margin: 5px;
     width: 85px;
     height: 60px;
-}
-
-
-.test {
-    display: none;
 }

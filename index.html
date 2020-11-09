@@ -11,8 +11,10 @@
 <body>
 
 <div class="calculator">
-    <input type="text" id="display" readonly>
-
+    <div class="display__container">
+        <input type="text" id="display" readonly>
+        <button class="" onclick="setInitialValue('')">AC</button>
+    </div>
     <div class="digits">
         <button onclick="digit(1)">1</button>
         <button onclick="digit(2)">2</button>
@@ -34,35 +36,14 @@
 
         <button onclick="digit(0)">0</button>
 
-        <button onclick="setInitialValue('')">C</button>
+        <button onclick="digit('.')">.</button>
         <button onclick="operand('/')">/</button>
         <button onclick="getResult('')" id="result">=</button>
-
-        <button onclick="digit('.')">.</button>
     </div>
 
 
-</div>
-
-<div class="test">
-    <h1 id="title">Hello h1</h1>
-
-    <input id="disp" type="text">
-
-    <div>
-        <button onclick="sayHello('Boom')" onmouseenter="mouseEnter()">CLICK</button>
-        <button onclick="read()">Read</button>
-        <button onclick="addToList()">Add</button>
-
-        <ul id="list">
-            <li>First</li>
-            <li>Second</li>
-        </ul>
-    </div>
 </div>
 
 <script src="script.js"></script>
-<script src="test.js"></script>
-<script src="fibonacci.js"></script>
 </body>
 </html>
