@@ -12,11 +12,12 @@ function sayHello (str) {
 
 const read = () => display.value[0].toUpperCase() + display.value.slice(1);
 
-addToList = () => {
-    let nodeElement = document.createElement('li');
-    let textNode = document.createTextNode(read());
+const addToList = () => {
+    const nodeElement = document.createElement('li');
+    const textNode = document.createTextNode(read());
     nodeElement.appendChild(textNode);
     document.querySelector('#list').appendChild(nodeElement);
 };
+
 
 const mouseEnter = () => console.log('You entered your mouse');

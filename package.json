@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/AniramOcean/DOM/issues"
   },
-  "homepage": "https://github.com/AniramOcean/DOM#readme"
+  "homepage": "https://github.com/AniramOcean/DOM#readme",
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
 }
